@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bannerAdBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Banner ad"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/interstitialAdBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interstitial ad"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/rewardInterstitialAdBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rewarded Interstitial ad"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/rewardedAdBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rewarded ad"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/nativeAdBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Native ad"/>
+
+</LinearLayout>
