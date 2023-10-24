@@ -57,7 +57,7 @@ class RewardedAdActivity : AppCompatActivity() {
     private fun loadRewardedAd(){
         RewardedAd.load(
             this,
-            "ca-app-pub-7629141945370293/2497203260",
+            "ca-app-pub-3940256099942544/5224354917",
             AdRequest.Builder().build(),
             object: RewardedAdLoadCallback(){
                 override fun onAdFailedToLoad(adError: LoadAdError) {
@@ -115,7 +115,7 @@ class RewardedAdActivity : AppCompatActivity() {
 
         RewardedAd.load(
             this,
-            "ca-app-pub-7629141945370293/2497203260",
+            "ca-app-pub-3940256099942544/5224354917",
             AdRequest.Builder().build(),
             object: RewardedAdLoadCallback(){
                 override fun onAdFailedToLoad(adError: LoadAdError) {

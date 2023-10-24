@@ -56,7 +56,7 @@ class AdapterProduct(
             holderProduct.ratingBar.rating = rating
         }
         else if(getItemViewType(position) == VIEW_TYPE_AD){
-            val adLoader = AdLoader.Builder(context, "ca-app-pub-7629141945370293/3126940414")
+            val adLoader = AdLoader.Builder(context, "ca-app-pub-3940256099942544/9214589741")
                 .forNativeAd {nativeAd ->
                     val holderNativeAd = holder as HolderNativeAd
                     displayNativeAd(holderNativeAd, nativeAd)
