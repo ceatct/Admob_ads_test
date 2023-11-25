@@ -1,7 +1,5 @@
-EN
-
-Implementation of all types of advertising available in AdMob
-
-UA
-
-Реалізація всіх видів реклами доступних в AdMob
+Hands-on experience with all types of advertising, what google admob provides with analytics via firebase.
+Technology Stack:
+- The application lifecycle
+- Google admob
+- Lifecycle and firebase libraries
